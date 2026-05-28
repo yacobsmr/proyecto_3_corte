@@ -1,20 +1,15 @@
-# ============================================================================
+
 # CALCULADORA CIENTÍFICA GRAFICADORA
-# ============================================================================
+
 # Este programa implementa una calculadora que realiza operaciones matemáticas
 # básicas y científicas, evalúa funciones, grafica en consola y guarda historial
-# ============================================================================
-
-# ============================================================================
 # DECLARACIÓN DE VARIABLE GLOBAL - HISTORIAL
-# ============================================================================
 # Esta lista almacena todas las operaciones realizadas durante la ejecución
 # Se utiliza para que el usuario pueda ver el registro de lo que ha calculado
 historial = []
 
-# ============================================================================
+
 # SECCIÓN 1: OPERACIONES BÁSICAS
-# ============================================================================
 # Estas funciones realizan operaciones matemáticas simples entre dos números
 
 # Función para sumar dos números
@@ -81,9 +76,8 @@ def potencia(base, exponente):
     # Se retorna el resultado final de la potencia
     return resultado
 
-# ============================================================================
 # SECCIÓN 2: OPERACIONES CIENTÍFICAS
-# ============================================================================
+
 # Estas funciones calculan operaciones matemáticas complejas usando métodos
 # de aproximación, sin usar librerías externas como 'math'
 
@@ -271,9 +265,7 @@ def logaritmo_natural(x):
     # Se retorna la aproximación del logaritmo natural
     return resultado
 
-# ============================================================================
 # SECCIÓN 3: FUNCIÓN PARA EVALUAR FUNCIONES PREDEFINIDAS
-# ============================================================================
 # Esta función permite calcular el valor de una función para un valor de x
 
 # Función para evaluar una función predefinida
@@ -300,9 +292,9 @@ def evaluar_funcion(x):
     # El usuario posteriormente seleccionará una función del diccionario
     return funciones
 
-# ============================================================================
+
 # SECCIÓN 4: FUNCIÓN PARA GRAFICAR EN CONSOLA
-# ============================================================================
+
 # Esta función crea una representación visual de una función en la consola
 
 # Función para graficar una función en consola
