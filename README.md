@@ -8,6 +8,7 @@ Es una calculadora que funciona como un programa. Haces clic en las opciones del
 
 - Yacobs Santiago Muñoz Rubio
 - Carlos Andres Orjuela Tique
+- Juan Sebastian Rozo Ramirez
 
 ## Qué necesitas para ejecutarlo
 
